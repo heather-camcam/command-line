@@ -1,0 +1,13 @@
+mv is used to either rename or move files and directories from one place, to another.
+
+To move files from one directory to another, the following convention should be used:
+
+mv file1 /desktop/directory1
+
+here, file1 is being moved from it’s current directory (source) to it’s new position in directory1 (target) and the old file is removed.
+
+If a target directory is not specified, the file or directory will be renamed.
+
+e.g. mv file1 file2
+
+file1 will be renamed to file2.
