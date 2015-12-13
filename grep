@@ -1,0 +1,21 @@
+grep is used to find instances or patterns of something within a file, or directory.
+
+The syntax is:
+
+grep [options] [search_string file]
+
+e.g. grep ‘hello' test1
+
+This example will find all instances of ‘hello’ in the file test1.
+
+A number of options can be appended to the grep search to make it more specific.
+
+e.g. grep -R ‘hello’ ~desktop/projects
+
+-R (recursive) indicates that grep will search every subdirectory and file within the projects directory
+
+-i (case insensitive) tells grep to ignore cases e.g. will find HELLO, hello, and hELLo
+
+To search using a combination of options using the pipe symbol | to separate your search options
+
+e.g. grep -R | -i
