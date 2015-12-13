@@ -1,0 +1,13 @@
+wc is used to count the number of words, characters, lines and bytes.
+
+The following options are available:
+
+-l the number of lines.
+
+-m the number of characters.
+
+-w the number of words.
+
+e.g. wc -w report
+
+counts the number of words in the file, report.
